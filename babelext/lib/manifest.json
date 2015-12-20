@@ -1,0 +1,48 @@
+{
+    "base": {
+        "name": "The Next Reddit",
+        "version": "8", 
+        "description": "A Responsible Redesign",
+        "license": "GPL", 
+        "author": "Danneh",
+        "progname": "thenextreddit", 
+        "progauthor": "danneh", 
+        "sites": [
+            "reddit.com", 
+            "*.reddit.com"
+        ], 
+        "files": {
+            "js": [
+                "BabelExt.js", 
+                "jquery.min.js", 
+                "the_next_reddit.user.js"
+            ], 
+            "css": [
+                "the_next_reddit.css"
+            ]
+        }
+    },
+    "chrome": {
+        "background": {
+            "page": "background.html"
+        },
+        "permissions": [
+            "tabs",
+            "history",
+            "notifications"
+        ]
+    }, 
+    "chrome-temp": {
+        "update_url": "http://babelext.com/update-chrome.php"
+    }, 
+    "firefox": {
+        "id": "jid1-IDC9PhaOyFVo3g"
+    }, 
+    "opera": {
+
+    }, 
+    "safari": {
+        "allowed-domains": "babelext.com", 
+        "website": "http://babelext.com"
+    }
+}
